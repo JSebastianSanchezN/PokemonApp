@@ -1,0 +1,17 @@
+<template>
+  <PokemonPage/>
+</template>
+
+<script>
+import PokemonPage from './pages/PokemonPage.vue';
+  export default {
+    components: { PokemonPage }
+}
+</script>
+
+<style>
+  .fade-in{
+    animation: fadeIn;
+    animation-duration: 6s;
+  }
+</style>
